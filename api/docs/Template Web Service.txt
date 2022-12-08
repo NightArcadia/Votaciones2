@@ -1,0 +1,22 @@
+WEB SERVICES
+
+----WEB SERVICES GET----
+$app->get('/rutaget', function(Request $request, Response $response){
+    echo "Prueba de la url ruta";
+});
+
+----WEB SERVICES GET QUE RECIBE PARÁMETROS----
+$app->get('/rutaget/{nombre}', function(Request $request, Response $response, array $argumentos){
+
+    $nombre = $argumentos["nombre"];
+
+    echo "Prueba de la url ruta";
+});
+
+----WEB SERVICES POST (UTILIZAR CLIENTE POSTMAN)----
+$app->post('/rutapost', function(Request $request, Response $response){
+    //OBTENER INFORMACIÓN ENVIADA
+    $data = $request->getParseBody();
+
+    echo "Prueba de la url por método post
+});

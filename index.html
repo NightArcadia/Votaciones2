@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Instituto Nacional Electoral - INE</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+        <script src="lib/face-api.js"></script>
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <i class="far fa group"></i>
+                                <h2>Votaciones INE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-bar-right">
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand"></a>
+                <div id="logo">
+                    <a href="img/logo-ine.png" class="logo" data-dark-logo="img/logo-ine.png"></a>
+                    <img class="img-responsive" src="img/logo-ine.png" alt="Logo INE">
+                </div>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+				<a href="contact.html" class="nav-item nav-link">Registro</a>
+                        <a href="sesion.html" class="nav-item nav-link">Iniciar Sesión</a>
+                        <a href="" class="nav-item nav-link">Noticias</a>
+                        <a href="team.html" class="nav-item nav-link">Informacion</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paginas Oficiales</a>
+                            <div class="dropdown-menu">
+                                <a href="https://www.ine.mx/" class="dropdown-item">INE</a>
+                                <a href="https://www.inegi.org.mx/" class="dropdown-item">INEGI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    
+                    <div class="col-sm-12 col-md-6" style="margin-top: 80px;">
+                        <div class="hero-text">
+                            <h1>Votaciones Electrónicas</h1>
+                            <p>
+                                Entrada al sistema electronico para votaciones 
+                            </p>
+                            <div class="hero-btn">
+                                <a class="btn" href="sesion.html">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/horarios-ine.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-img">
+                            <img src="img/about.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="section-header text-left">
+                            <p>Learn About Us</p>
+                            <h2>Bienvenido al Sistema Electoral Digital</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Esta pagina ofrece un metodo mucho mas practico y efectivo para realizar todo el proceso electoral mediante
+un medio electronico, desde tu computadora, hasta tu celular.
+                            </p>
+                            <p>
+                                Con esto mismo y nuestro sofisticado sistema de recoleccion de votos puedes estar seguro de la integridad
+y la validez para que tu voto sea verdaderamente escuchado.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Service Start -->
+        <div class="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What we do</p>
+                    <h2>Pasos para Realizar tu Voto</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-contact-form"></i>
+                            </div>
+                            <h3>Registrate</h3>
+                            <p>
+                                Realiza el proceso de registro con los datos de tu credencial de lector oficial
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item active">
+                            <div class="service-icon">
+                                <i class="flaticon-profile"></i>
+                            </div>
+                            <h3>Muestrate</h3>
+                            <p>
+                                Captura una foto durante el registro
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-padlock"></i>
+                            </div>
+                            <h3>Identificate</h3>
+                            <p>
+                                Inicia sesion como usuario en la pagina
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-browsing"></i>
+                            </div>
+                            <h3>Verifica</h3>
+                            <p>
+                                Identifica si el apartado de votaciones esta activo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-counting"></i>
+                            </div>
+                            <h3>Elige</h3>
+                            <p>
+                                Realiza tu decision seleccionando al partido y representante que quieres votar
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-email"></i>
+                            </div>
+                            <h3>Envia</h3>
+                            <p>
+                                Una vez realizada tu seleccion, envia tu sufragio y listo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Class Start -->
+        <div class="class">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Panel de visualizacion</p>
+                    <h2>Partidos politicos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="class-filter">
+                            <li data-filter="*" class="filter-active">Todos</li>
+                            <li data-filter=".filter-1">Candidaturas Presidenciales</li>
+                            <li data-filter=".filter-2">Diputaciones</li>
+                            <li data-filter=".filter-3">Partidos Independientes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row class-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-1.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-1.png" alt="Image">
+                                    <h3>PRI</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Candidatura a la presidencia</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>20 de octubre</p>
+                                    <p><i class="far fa-clock"></i>50% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-2.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-2.png" alt="Image">
+                                    <h3>Morena</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Cargos por la diputacion</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>5 noviembre</p>
+                                    <p><i class="far fa-clock"></i>35% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-3.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-3.png" alt="Image">
+                                    <h3>Encuentro Sociel</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Candidatura estatal</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>30 de octubre</p>
+                                    <p><i class="far fa-clock"></i>15% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-4.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-4.png" alt="Image">
+                                    <h3>PAN</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Candidatura por la presidencia</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>20 de octubre</p>
+                                    <p><i class="far fa-clock"></i>45% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-5.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-5.png" alt="Image">
+                                    <h3>PRD</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Cargos por la diputacion</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>5 de noviembre</p>
+                                    <p><i class="far fa-clock"></i>25% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="class-wrap">
+                            <div class="class-img">
+                                <img src="img/class-6.jpg" alt="Image">
+                            </div>
+                            <div class="class-text">
+                                <div class="class-teacher">
+                                    <img src="img/teacher-6.png" alt="Image">
+                                    <h3>Partido Cardenista</h3>
+                                    <a href="">+</a>
+                                </div>
+                                <h2>Candidatura estatal</h2>
+                                <div class="class-meta">
+                                    <p><i class="far fa-calendar-alt"></i>30 de octubre</p>
+                                    <p><i class="far fa-clock"></i>20% de los votos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Class End -->
+        
+        
+        <!-- Discount Start -->
+        <div class="discount wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>sign in</p>
+                    <h2>Ejercer tu voto esta a un solo <span>click</span> de distancia</h2>
+                </div>
+                <div class="container discount-text">
+                    <p>
+                        Registrate ahora, para poder realizar tu proceso electoral de una manera mas rapida y sencilla en cualquier lugar,
+de cualquier parte a cualquier hora. 
+                    </p>
+                    <a class="btn">Registrarse</a>
+                </div>
+            </div>
+        </div>
+        <!-- Discount End -->
+
+
+        <!-- Blog Start -->
+        <div class="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>From Blog</p>
+                    <h2>Noticias reciente</h2>
+                </div>
+                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-1.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Candidaturas</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Inicio del periodo de candidaturas</p>
+                                <p><i class="far fa-calendar-alt"></i>20-Oct-2022</p>
+                                <p><i class="far fa-comments"></i>10</p>
+                            </div>
+                            <p>
+                               Las cadidaturas por la presidencia de la republica estan a la vuelta de la esquina
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-2.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Diputaciones</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Cargos a dipuciones</p>
+                                <p><i class="far fa-calendar-alt"></i>5-Nov-2022</p>
+                                <p><i class="far fa-comments"></i>10</p>
+                            </div>
+                            <p>
+                                El periodo de diputaciones esta abierto, puedes ver quienes son los candidatos
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-3.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Coaliciones</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Alianzas entre partidos</p>
+                                <p><i class="far fa-calendar-alt"></i>30-Oct-2022</p>
+                                <p><i class="far fa-comments"></i>10</p>
+                            </div>
+                            <p>
+                                Revisa la lista de coaliciones actuales para distintas candidaturas
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-4.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Encuestas</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Porcentajes de popularidad</p>
+                                <p><i class="far fa-calendar-alt"></i>25-Oct-2022</p>
+                                <p><i class="far fa-comments"></i>50</p>
+                            </div>
+                            <p>
+                                Realiza una encuesta sobre el proceso electoral y visualiza la opinion popular
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-5.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Elecciones</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Periodo electoral</p>
+                                <p><i class="far fa-calendar-alt"></i>10-Nov-2022</p>
+                                <p><i class="far fa-comments"></i>10</p>
+                            </div>
+                            <p>
+                                Estate atento a los próximos periodos para cadidaturas estatales y diputaciones
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-6.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Proceso de votacion</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-list-alt"></i>Votacion electronica</p>
+                                <p><i class="far fa-calendar-alt"></i>01-Nov-2022</p>
+                                <p><i class="far fa-comments"></i>100</p>
+                            </div>
+                            <p>
+                                Revisa lo mas actual sobre el nuevo sistema electoral digital y todos sus beneficios
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <a href="index.html" class="footer-logo">Sistema <span>Electoral</span> Digital</a>
+                        <h3>123 Street, Ciudad de Mexico, 🇲🇽</h3>
+                        <div class="footer-menu">
+                            <p>+012 345 67890</p>
+                            <p>info@example.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
